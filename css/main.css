@@ -1,0 +1,32 @@
+a{text-decoration:none;}
+
+#wrapper
+{
+  max-width:940px;
+  margin: 0 auto; /*! centers text*/
+  padding:0, 5%;  /*! padds sides so that the style reaches other parts of the page on diff screens*/
+}
+#logo
+{
+  text-align:center;
+  margin: 0; 
+}
+a{color:#FF6600}
+
+header
+{
+  background:#FF6600;
+  border-color:#FF0000;
+}
+h1,h2
+{
+  color:#FFF;
+}
+nav
+{
+  background:#803300;
+}
+nav a, nav.a a:visited /*! changes links to white and keeps visited links white*/
+{
+  color:#FFF;
+}
